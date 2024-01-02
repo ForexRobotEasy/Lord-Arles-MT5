@@ -1,0 +1,58 @@
+mql5
+//+------------------------------------------------------------------+
+//|                                           Lord Arles MT5        |
+//|                                      forexroboteasy.com         |
+//|                                      Developed by Forex Robot    |
+//|                                      Easy Team                   |
+//+------------------------------------------------------------------+
+
+// Initialization function
+int OnInit()
+{
+    // Add initialization code here
+    return(INIT_SUCCEEDED);
+}
+
+// Deinitialization function
+void OnDeinit(const int reason)
+{
+    // Add deinitialization code here
+}
+
+// Tick event handler
+void OnTick()
+{
+    // Add code to constantly review market trends, news, events, and tick patterns
+
+    // Check for strong or weak market trends and react accordingly
+
+    // Check for any losses and apply recovery logic
+
+    // Make trading decisions based on the analyzed data
+
+    // Add code to execute trading operations
+
+    // Add code to protect investments
+
+    // Add any additional code or functions required for the trading strategy
+}
+
+// Execution function
+void OnTrade()
+{
+    // Add code to execute trading operations
+}
+
+// Protection function
+void OnProtection()
+{
+    // Add code to protect investments
+}
+
+// Recovery function
+void OnRecovery()
+{
+    // Add code to apply recovery logic
+}
+
+//+------------------------------------------------------------------+
